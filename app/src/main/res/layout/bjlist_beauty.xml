@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1"
+    >
+
+    <TableRow>
+        <TextView
+            android:text="이름 "
+            android:textSize="24dp"
+            android:padding="10dp" />
+        <TextView
+            android:text="구독자수"
+            android:textSize="24dp"
+            android:gravity="left"
+            android:padding="10dp" />
+        <TextView
+            android:text="영상보러가기"
+            android:textSize="24dp"
+            android:gravity="left"
+            android:padding="10dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:padding="10dp"
+            android:text="포니"
+            android:textSize="24dp" />
+
+        <TextView
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="2,431,939"
+            android:textSize="24dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_media_play"
+            android:onClick="onButton8Clicked"/>
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:padding="10dp"
+            android:text="씬님"
+            android:textSize="24dp" />
+
+        <TextView
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="1,242,302"
+            android:textSize="24dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_media_play" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:padding="10dp"
+            android:text="회사원"
+            android:textSize="24dp" />
+
+        <TextView
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="877,593"
+            android:textSize="24dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_media_play" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:padding="10dp"
+            android:text="다또아"
+            android:textSize="24dp" />
+
+        <TextView
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="855,030"
+            android:textSize="24dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_media_play" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:padding="10dp"
+            android:text="이사배"
+            android:textSize="24dp" />
+
+        <TextView
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="797,336"
+            android:textSize="24dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_media_play"
+
+            />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:padding="10dp"
+            android:text="윤쨔미"
+            android:textSize="24dp" />
+
+        <TextView
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="726,820"
+            android:textSize="24dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_media_play" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:padding="10dp"
+            android:text="라뮤끄"
+            android:textSize="24dp" />
+
+        <TextView
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="639,365"
+            android:textSize="24dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_media_play" />
+
+    </TableRow>
+
+
+
+    </TableLayout>
