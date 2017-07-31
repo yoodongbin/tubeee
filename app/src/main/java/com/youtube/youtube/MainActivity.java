@@ -1,6 +1,5 @@
 package com.youtube.youtube;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
@@ -8,8 +7,6 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
-import android.view.View;
-import android.widget.Button;
 
 
 /**
@@ -44,11 +41,11 @@ public class MainActivity extends AppCompatActivity {
         getSupportFragmentManager().beginTransaction().replace(R.id.container, fragment1).commit();
 
         TabLayout tabs = (TabLayout) findViewById(R.id.tabs);
-        tabs.addTab(tabs.newTab().setText("＠"));
-        tabs.addTab(tabs.newTab().setText("〓"));
-        tabs.addTab(tabs.newTab().setText("★"));
-        tabs.addTab(tabs.newTab().setText("♥"));
-        tabs.addTab(tabs.newTab().setText("§"));
+        tabs.addTab(tabs.newTab().setIcon(R.mipmap.ic_home));
+        tabs.addTab(tabs.newTab().setIcon(R.mipmap.ic_category));
+        tabs.addTab(tabs.newTab().setIcon(R.mipmap.ic_like));
+        tabs.addTab(tabs.newTab().setIcon(R.mipmap.ic_clip));
+        tabs.addTab(tabs.newTab().setIcon(R.mipmap.ic_profile));
 
         tabs.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             public void onTabSelected(TabLayout.Tab tab) {
@@ -70,15 +67,28 @@ public class MainActivity extends AppCompatActivity {
 
                 getSupportFragmentManager().beginTransaction().replace(R.id.container, selected).commit();
 
-                findViewById(R.id.buttonLogin).setOnClickListener(new Button.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        Intent intent = new Intent(
-                                getApplicationContext(),
-                                LoginActivity.class);
-                        startActivity(intent);
-                    }
-                });
+//                *****
+//                findViewById(R.id.buttonLogin).setOnClickListener(new Button.OnClickListener() {
+//                    @Override
+//                    public void onClick(View v) {
+//                        Intent intent = new Intent(
+//                                getApplicationContext(),
+//                                LoginActivity.class);
+//                        startActivity(intent);
+//                    }
+//                });
+//
+//                findViewById(R.id.buttonBeauty).setOnClickListener(new Button.OnClickListener() {
+//                    @Override
+//                    public void onClick(View v) {
+//                        Intent intent = new Intent(
+//                                getApplicationContext(),
+//                                bjlist_beautyActivity.class);
+//                        startActivity(intent);
+//                    }
+//                });
+
+
 
             }
 

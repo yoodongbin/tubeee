@@ -18,7 +18,7 @@ public class bjlist_beautyActivity  extends AppCompatActivity {
 
     }
 
-    public void onButton8Clicked(View v) {
+    public void onButtonClickedPony(View v) {
         // 인텐트 객체를 만듭니다.
         Uri uri = Uri.parse("http://www.youtube.com");
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);

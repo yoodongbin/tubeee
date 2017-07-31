@@ -1,0 +1,208 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1"
+    >
+
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:text="이름 "
+            android:textSize="24dp"
+            android:padding="10dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:text="구독자수"
+            android:textSize="24dp"
+            android:padding="10dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:text="영상보러가기"
+            android:textSize="24dp"
+            android:padding="10dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="NAMELESS"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="2,431,939"
+            android:textSize="24dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_media_play" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="꿀키"
+            android:textSize="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="1,242,302"
+            android:textSize="24dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_media_play" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="바나뚜레"
+            android:textSize="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="877,593"
+            android:textSize="24dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_media_play" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="더스쿱"
+            android:textSize="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="855,030"
+            android:textSize="24dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_media_play" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="JAMIE OLIVER"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="797,336"
+            android:textSize="24dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_media_play" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="화니의 주방"
+            android:textSize="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="726,820"
+            android:textSize="24dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton66"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_media_play" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="소프"
+            android:textSize="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="639,365"
+            android:textSize="24dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton77"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_media_play" />
+
+    </TableRow>
+
+
+
+</TableLayout>
